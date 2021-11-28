@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Login Form</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <form class="box" id="loginForm">
+            <h1>Login</h1>
+            <label for="email">Username(Valid e-mail address):</label>
+            <input autocomplete="off" id="email" type="email" name="email" required>
+            <label for="pwd">Password:</label>
+            <input id="pwd" type="password" name="pwd" required><br>
+            <button id="submit" disabled="disabled" type="submit" onclick="validate()">Login</button>
+        </form>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
